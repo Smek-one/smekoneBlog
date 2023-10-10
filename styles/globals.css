@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.68);
+    margin: 3vh auto;
+    user-select: none;
+}
+
+body{
+  background-color: #CDC2AE;
+}
+
+.posts:last-child{
+    margin-bottom: 3vh;
+}
+
+li {
+  list-style: none; 
+}
+
+ul li::before{
+  list-style-type: none;
+  content: "\002605";
+  color: #116A7B;
+  margin-right: 10px;
+}
