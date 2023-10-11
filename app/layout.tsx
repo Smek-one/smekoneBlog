@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
-import {RiTwitterXFill, RiInstagramLine} from "react-icons/ri";
+import {RiTwitterXFill, RiInstagramLine, RiGithubFill} from "react-icons/ri";
 
 
 
@@ -32,11 +32,15 @@ export default function RootLayout({
           <span className="text-red-700 mx-2">&#x2661;</span>
            by Smek-one</h3>
            </div>
+
+           /*MENU PAGES */
       <div className="text-cianOscuro font-extralight mb-4 underline underline-offset-2 decoration-zinc-600">
       <Link href="/" className="mx-2">Accueil</Link>
       <Link href="/contact" className="mx-2">Contact</Link>
       <Link href="/about" className="mx-2">À propos</Link>
       </div>
+
+      /*SOCIAL LINKS */
       <div className="text-center border-t-2 border-cianOscuro w-1/4 mx-auto">
         <p className="md:underline pt-6 md:text-xl sm:text-xs sm:no-underline">Suivez-moi sur les réseaux:</p>
       
@@ -47,6 +51,10 @@ export default function RootLayout({
        
         <a href="https://www.instagram.com/smek_one_pics/" className="mx-2 mt-2 mb-4 text-cianOscuro">
         <RiInstagramLine className="text-3xl"/> 
+        </a>  
+
+        <a href="https://github.com/Smek-one" className="mx-2 mt-2 mb-4 text-cianOscuro">
+        <RiGithubFill className="text-3xl"/> 
         </a>  
       </div>
       </div>
