@@ -33,14 +33,14 @@ export default function RootLayout({
            by Smek-one</h3>
            </div>
 
-           /*MENU PAGES */
+           {/*MENU PAGES */}
       <div className="text-cianOscuro font-extralight mb-4 underline underline-offset-2 decoration-zinc-600">
       <Link href="/" className="mx-2">Accueil</Link>
       <Link href="/contact" className="mx-2">Contact</Link>
       <Link href="/about" className="mx-2">À propos</Link>
       </div>
 
-      /*SOCIAL LINKS */
+      {/*SOCIAL LINKS */}
       <div className="text-center border-t-2 border-cianOscuro w-1/4 mx-auto">
         <p className="md:underline pt-6 md:text-xl sm:text-xs sm:no-underline">Suivez-moi sur les réseaux:</p>
       
