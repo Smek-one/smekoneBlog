@@ -1,6 +1,6 @@
 "use client";
 
-import 'dotenv/config';
+
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
