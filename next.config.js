@@ -10,6 +10,5 @@ const nextConfig = {
 module.exports = nextConfig,{
    env: {
   SERVER: process.env.SERVER,
-},
-nextConfig,
+}
 };

@@ -1,8 +1,10 @@
 "use client";
 
+import 'dotenv/config';
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import { HiArrowNarrowLeft } from "react-icons/hi";
 
 
 export default function Contact(){
@@ -69,6 +71,10 @@ export default function Contact(){
 
           </form>
       </section>
+      <div className="flex justify-center items-center text-cianOscuro mt-6 pb-6">
+                <HiArrowNarrowLeft />
+            <Link href="/">Retour à l'accueil</Link>
+            </div>
       </div>
         
     )
