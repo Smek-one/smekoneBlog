@@ -34,38 +34,39 @@ export default function RootLayout({
   }
 
   const footer = (
-    <footer className="bg-springBud border-t-2 text-center bg-cyan-600 h-auto">
-     <div className="border-slate-900 text-center">
-        <h3 className="text-black mt-9">Developed with
-          <span className="text-red-700 mx-2">&#x2661;</span>
-           by Smek-one</h3>
-           </div>
+    <footer className="bg-cianOscuro border-t-1 text-center h-auto">
 
-           {
+            {
            //MENU PAGES
            }
-      <div className="text-cianOscuro font-extralight mb-4 underline underline-offset-2 decoration-zinc-600">
+      <div className="text-cianOscuro rounded-b-md font-extralight underline underline-offset-2 pb-6 pt-6 mx-auto bg-shadeBrown w-2/4">
       <Link href="/" className="mx-2">Accueil</Link>
       <Link href="/contact" className="mx-2">Contact</Link>
       <Link href="/about" className="mx-2">À propos</Link>
       </div>
 
+     <div className="border-springBud text-center">
+        <h3 className="text-shadeBrown my-6 underline-offset-2">Developed with
+          <span className="text-red-700 mx-2">&#x2661;</span>
+           by Smek-one</h3>
+           </div>
+
       {
            //SOCIAL LINKS
            }
-      <div className="text-center border-t-2 border-cianOscuro w-1/4 mx-auto">
-        <p className="md:underline pt-6 md:text-xl sm:text-xs sm:no-underline">Suivez-moi sur les réseaux:</p>
+      <div className="text-center border-t-2 border-springBud w-1/4 mx-auto">
+        <p className="text-shadeBrown md:underline underline-offset-2 pt-6 md:text-xl sm:text-xs sm:no-underline">Mes réseaux:</p>
       
       <div className="flex justify-center mt-6">
-        <a href="https://twitter.com/smek_one" className="mx-2 mt-2 mb-4 text-cianOscuro">
+        <a href="https://twitter.com/smek_one" className="mx-2 mt-2 mb-4 text-springBud">
         <RiTwitterXFill className="text-3xl"/> 
         </a> 
        
-        <a href="https://www.instagram.com/smek_one_pics/" className="mx-2 mt-2 mb-4 text-cianOscuro">
+        <a href="https://www.instagram.com/smek_one_pics/" className="mx-2 mt-2 mb-4 text-springBud">
         <RiInstagramLine className="text-3xl"/> 
         </a>  
 
-        <a href="https://github.com/Smek-one" className="mx-2 mt-2 mb-4 text-cianOscuro">
+        <a href="https://github.com/Smek-one" className="mx-2 mt-2 mb-4 text-springBud">
         <RiGithubFill className="text-3xl"/> 
         </a>  
       </div>
