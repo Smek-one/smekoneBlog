@@ -10,6 +10,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  {
+    //HEADER BAR
+  }
   const header = (
     <header>
     <div className="bg-cianOscuro mb-10 p-4 grid grid-cols-1 mx-auto min-w-2xl bg-emerald-300 h-full">
@@ -24,6 +28,10 @@ export default function RootLayout({
     
   </header>
   );
+
+  {
+    //FOOTER
+  }
 
   const footer = (
     <footer className="bg-springBud border-t-2 text-center bg-cyan-600 h-auto">
