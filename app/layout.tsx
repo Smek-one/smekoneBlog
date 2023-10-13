@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
 import {RiTwitterXFill, RiInstagramLine, RiGithubFill} from "react-icons/ri";
+import Sidebar from "../components/Sidebar";
 
 
 
@@ -17,8 +18,8 @@ export default function RootLayout({
   const header = (
     <header>
     <div className="bg-cianOscuro mb-10 p-4 grid grid-cols-1 mx-auto min-w-2xl bg-emerald-300 h-full">
-    <h1 className=" text-shadeBrown text-2xl font-bold "><a href="/">Smek-One Blog</a></h1>
-    <p className="text-blueGreen font-light text-sm">La nature à travers l'objectif d'un passionné</p>
+    <h1 className=" text-shadeBrown text-2xl font-bold lg:pl-48 "><a href="/">Smek-One Blog</a></h1>
+    <p className="text-blueGreen font-light text-sm lg:pl-48">La nature à travers l'objectif d'un passionné</p>
     <div className="absolute right-4 top-0">
       <a href="/" >
       <Image src="/logo.png" alt="logo" width={80} height={80} className="shadow-md shadow-white"></Image>
@@ -39,13 +40,9 @@ export default function RootLayout({
             {
            //MENU PAGES
            }
-      <div className="text-cianOscuro rounded-b-md font-extralight underline underline-offset-2 pb-6 pt-6 mx-auto bg-shadeBrown w-2/4">
-      <Link href="/" className="mx-2">Accueil</Link>
-      <Link href="/contact" className="mx-2">Contact</Link>
-      <Link href="/about" className="mx-2">À propos</Link>
-      </div>
+      
 
-     <div className="border-springBud text-center">
+     <div className="border-springBud text-center pt-6">
         <h3 className="text-shadeBrown my-6 underline-offset-2">Developed with
           <span className="text-red-700 mx-2">&#x2661;</span>
            by Smek-one</h3>
@@ -78,6 +75,7 @@ export default function RootLayout({
     <html lang="fr">
       <body>
         <div>
+        <Sidebar />
           {header}
         <div className="m-4">
           {children}
