@@ -1,8 +1,11 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
 import {RiTwitterXFill, RiInstagramLine, RiGithubFill} from "react-icons/ri";
-import Sidebar from "../components/Sidebar";
+import Menu from "../components/Menu";
+import { useState } from "react";
 
 
 
@@ -15,15 +18,21 @@ export default function RootLayout({
   {
     //HEADER BAR
   }
+  
   const header = (
+    
     <header>
-    <div className="bg-cianOscuro mb-10 p-4 grid grid-cols-1 mx-auto min-w-2xl bg-emerald-300 h-full">
-    <h1 className=" text-shadeBrown text-2xl font-bold lg:pl-48 "><a href="/">Smek-One Blog</a></h1>
-    <p className="text-blueGreen font-light text-sm lg:pl-48">La nature à travers l'objectif d'un passionné</p>
+      
+    <div> 
+    <div className="bg-cianOscuro mb-10 grid grid-cols-1 mx-auto min-w-2xl">
+      <Menu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} className="p-4"/>   
+        <h1 className=" text-shadeBrown text-2xl font-bold p-4 text-center lg:text-3xl md:text-xs"><a href="/">Smek-One Blog</a></h1>
+        <p className="text-blueGreen font-light p-4 text-sm text-center lg:text-xl sm:text-xs">La nature à travers l'objectif d'un passionné</p>  
     <div className="absolute right-4 top-0">
       <a href="/" >
-      <Image src="/logo.png" alt="logo" width={80} height={80} className="shadow-md shadow-white"></Image>
+      <Image src="/logo.png" alt="logo" width={60} height={60} className="shadow-md shadow-white"></Image>
       </a>
+    </div>
     </div>
     </div>
     
@@ -36,13 +45,7 @@ export default function RootLayout({
 
   const footer = (
     <footer className="bg-cianOscuro border-t-1 text-center h-auto">
-
-            {
-           //MENU PAGES
-           }
-      
-
-     <div className="border-springBud text-center pt-6">
+     <div className="border-springBud text-center">
         <h3 className="text-shadeBrown my-6 underline-offset-2">Developed with
           <span className="text-red-700 mx-2">&#x2661;</span>
            by Smek-one</h3>
@@ -75,7 +78,6 @@ export default function RootLayout({
     <html lang="fr">
       <body>
         <div>
-        <Sidebar />
           {header}
         <div className="m-4">
           {children}

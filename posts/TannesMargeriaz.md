@@ -1,5 +1,5 @@
 ---
-title: 'Les Tannes et Glacières du Margeriaz(Savoie, France)'
+title: 'Les Tannes et Glacières du Margeriaz (Savoie, France)'
 date: "2023-05-27"
 subtitle : "Un trésor caché des Bauges "
 ---
