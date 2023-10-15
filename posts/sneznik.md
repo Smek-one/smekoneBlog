@@ -1,6 +1,6 @@
 ---
 title: 'Château de Snežnik (Slovénie)'
-date: '2020-08-12'
+date: '12/08/2021'
 subtitle: 'Un joyau du patrimoine slovène'
 ---
 

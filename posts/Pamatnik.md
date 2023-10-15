@@ -1,6 +1,6 @@
 ---
 title: 'Pamatnik Vojna u Pribrami (République Tchèque)'
-date: '2023-08-20'
+date: '20/08/2023'
 subtitle : "Un témoignage du passé communiste"
 ---
 

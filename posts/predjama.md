@@ -1,6 +1,6 @@
 ---
 title: 'Château de Predjama (Slovénie)'
-date: '2020-08-13'
+date: '13/08/2022'
 subtitle: "Un château médiéval perché dans une grotte"
 ---
 

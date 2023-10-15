@@ -1,7 +1,7 @@
 ---
 title: 'Château de Miolans (Savoie, France)'
-date: '2021-07-27'
-subtitle: "Un château médiéval perché dans une grotte"
+date: '27/07/2021'
+subtitle: "Une forteresse médiévale au sommet d'une falaise"
 ---
 
 ![Texte alternatif](../images/miolans/miolans1.jpg "Le labyrinthe de Malá skála")

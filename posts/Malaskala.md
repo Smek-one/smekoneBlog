@@ -1,6 +1,6 @@
 ---
 title: 'Malá skála (République Tchèque)'
-date: '2023-08-10'
+date: '10/08/2023'
 subtitle : "Un lieu magique et mystérieux"
 ---
 

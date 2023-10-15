@@ -1,6 +1,6 @@
 ---
 title: 'Chartreuse de Ziče (Slovénie)'
-date: '2020-08-10'
+date: '10/08/2020'
 subtitle: 'La chartreuse de Žiče : un lieu de silence et de spiritualité'
 ---
 

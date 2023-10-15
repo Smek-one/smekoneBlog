@@ -28,8 +28,8 @@ const PostPage = (props: any) => {
    <div>
       <div className="my-12 text-center">
         <h1 className="text-center p-8 text-cianOscuro text-3xl font-bold underline">{post.data.title}</h1>
-        <h1 className="text-center p-8  text-xl w-100 mx-auto bg-cianOscuro rounded-md text-shadeBrown font-semibold ">{post.data.subtitle}</h1>
         <p className="text-center subpixel-antialiased mt-2 text-cianOscuro font-thin">{post.data.date}</p>
+        <h1 className="text-center p-8  text-xl w-100 mx-auto bg-cianOscuro rounded-md text-shadeBrown font-semibold ">{post.data.subtitle}</h1>
       </div>
 
       <article className="prose m-auto lg:w-full">
