@@ -6,7 +6,7 @@ import "../styles/globals.css";
 import {RiTwitterXFill, RiInstagramLine, RiGithubFill} from "react-icons/ri";
 import Menu from "../components/Menu";
 
-
+import { Provider, LikeButton, ClapButton } from "@lyket/react";
 
 
 export default function RootLayout({
@@ -81,6 +81,17 @@ export default function RootLayout({
           {header}
         <div className="m-4">
           {children}
+          <Provider apiKey="pt_8826ea21fd44bf6839973ac7fb59ee">
+            <div className="text-center mx-auto likeButton">
+              <h3 className="text-center">Si tu aimes mon blog, n'hésites pas à liker:</h3>
+          <LikeButton 
+            namespace="testing-react"
+            id="everybody-like-now"
+            component={LikeButton.templates.Twitter}
+          />
+          </div>
+        </Provider>
+
           <Analytics />
         </div>
         <div>
