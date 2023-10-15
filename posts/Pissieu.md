@@ -23,6 +23,6 @@ La cascade est accessible par un sentier pédestre en seulement une trentaine de
 Conseils pour visiter la cascade du Pissieu
 
 La meilleure période pour visiter la cascade est de mai à septembre, lorsque le débit est un peu plus important.
-En été, lorsque la canicule étouffe la valléée, il y fait bon vivre!
+En été, lorsque la canicule étouffe la vallée, il y fait bon vivre!
 Soyez prudents lorsque vous vous approchez de la cascade, car les chutes sont hautes et les bords sont glissants.
 Pensez à vous arrêter à la fromagerie sur le sentier!
