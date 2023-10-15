@@ -27,7 +27,7 @@ export default function RootLayout({
     <div className="bg-cianOscuro mb-10 grid grid-cols-1 mx-auto min-w-2xl">
       <Menu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} className="p-4"/>   
         <h1 className=" text-shadeBrown text-2xl font-bold p-4 text-center lg:text-3xl md:text-xs"><a href="/">Smek-One Blog</a></h1>
-        <p className="text-blueGreen font-light p-4 my-8 text-sm text-center lg:text-xl sm:text-xs">La nature à travers l'objectif d'un passionné</p>  
+        <p className="text-blueGreen font-light p-4 my-2 text-sm text-center lg:text-xl sm:text-xs">La nature à travers l'objectif d'un passionné</p>  
     <div className="absolute right-8 top-0 ">
       <a href="/" >
       <Image src="/logo.png" alt="logo" width={60} height={60} className="shadow-md shadow-white"></Image>
