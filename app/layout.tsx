@@ -46,7 +46,7 @@ export default function RootLayout({
   const footer = (
     <footer className="bg-cianOscuro border-t-1 text-center h-auto">
      <div className="border-springBud text-center">
-        <h3 className="text-shadeBrown my-6 underline-offset-2">Developed with
+        <h3 className="text-shadeBrown pt-6 mb-2 underline-offset-2">Developed with
           <span className="text-red-700 mx-2">&#x2661;</span>
            by Smek-one</h3>
            </div>
